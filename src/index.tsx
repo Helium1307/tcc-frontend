@@ -13,3 +13,6 @@ root.render(
     </ChakraProvider>
   </React.StrictMode>
 );
+//GABRIEL BEZERRA 
+
+let samba = "samba lê lê";
