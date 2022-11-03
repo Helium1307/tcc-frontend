@@ -1,6 +1,6 @@
 import { Flex, HStack } from "@chakra-ui/react";
 import React, { FC, PropsWithChildren, ReactNode } from "react";
-import Sidebar from "../Sidebar/Sidebar";
+import Sidebar from "../sidebar/Sidebar";
 
 type PageWithSidebarProps = PropsWithChildren & {
   children: ReactNode;
