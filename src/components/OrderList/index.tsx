@@ -29,7 +29,7 @@ const OrderList: React.FC<OrderListProps> = ({ selectedDishes, onDelete }) => {
 
   return (
     <Stack
-      height="45rem"
+      height="40rem"
       width="30rem"
       borderRadius="15px"
       border={"1px solid grey"}

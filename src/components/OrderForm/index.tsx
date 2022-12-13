@@ -9,6 +9,7 @@ import {
   Tbody,
   Td,
   Text,
+  Textarea,
   Tr,
   VStack,
 } from "@chakra-ui/react";
@@ -26,6 +27,7 @@ import AutocompleteWithTitle from "../AutocompleteWithTitle";
 import { Dish } from "../../types/Dish";
 import { getDishes } from "../../services/Dish";
 import OrderList from "../OrderList";
+import TextareaField from "../UI/TextareaField";
 
 const initialValues = {
   employee: "",
@@ -64,7 +66,7 @@ const OrderForm: React.FC = () => {
   };
   const onSubmit = (data: any) => console.log("on submit: ", data);
   return (
-    <Stack>
+    <Stack height="100vh" spacing="10">
       <Box width="100%" borderBottom={"1px solid #C2C2C2"}>
         <Text fontSize="3xl" fontWeight={"semibold"}>
           Comanda
@@ -104,7 +106,7 @@ const OrderForm: React.FC = () => {
                 </Text>
                 <TableContainer
                   width="40rem"
-                  height="30rem"
+                  height="22rem"
                   whiteSpace="pre-wrap"
                   overflowY="auto"
                 >
@@ -129,12 +131,20 @@ const OrderForm: React.FC = () => {
                     </Tbody>
                   </Table>
                 </TableContainer>
+
+                <TextareaField
+                  control={control}
+                  name="description"
+                  error={errors.employee?.message}
+                  placeholder="Descrição..."
+                  bgColor="#ececec"
+                />
               </VStack>
 
               <ActionButtons
                 onCancel={() => console.log("Salve")}
-                text="Criar"
-              ></ActionButtons>
+                text="Finalizar Pedido"
+              />
             </Stack>
 
             <Stack>
