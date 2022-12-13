@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Beach</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        
+        <h1>
+         Lounge
+        </h1>
+
+    </header>
+    
+    
+    <main>
+        <h1>
+            Cardápio Beach
+        </h1>
+
+        <h2>
+            Destaques
+        </h2>
+
+        <section id="secao1">
+            
+            <div>
+                <img src="" alt="sugestao do dia">
+                <p>
+                    descrição do prato
+                    valor
+                </p>
+            </div>
+
+            <div>
+                <img src="" alt="bebida">
+                
+                <p>
+                    descrição do prato
+                    valor
+                </p>
+            </div>
+        </section>
+
+        <section id="secao2">
+            <div>
+                <a href="#Cozinha" >
+                    <img id="fotocozinha" src="imagens/cozinha.png" alt="Pratos">
+                </a>
+            </div>
+    
+            <div>
+                <a href="#Bar">
+                    <img id="fotobar" src="imagens/Drinks.png" alt="Drinks"></a>
+            </div>
+        </section>
+
+        <section id="secao3">
+            
+            <h2 id="Cozinha">Cozinha</h2>
+
+            <div>
+                <ul>
+                </ul>
+                <h3>Entradas</h3>
+                <ul>
+                </ul>
+                <h3>Frutos do Mar</h3>
+                <ul>
+                </ul>
+                <h3>Carnes</h3>
+                <ul>
+                </ul>
+                <h3>Aves</h3>
+                <ul>
+                </ul>
+                <h3>Risotos</h3>
+                <ul>
+                </ul>
+                <h3>Massas</h3>
+                <ul>
+                </ul>
+                <h3>Guarniçaes</h3>
+                <ul>
+                </ul>
+                <h3>Porções</h3>
+                <ul>
+                </ul>
+                <h3>Sobremesas</h3>
+                <ul>
+                </ul>
+            </div>
+
+            <h2 id="Bar">Bar</h2>
+
+           <div>
+               <h3>Drinks</h3>
+               <h3>Caipirinhas</h3>
+               <h3>Batidas</h3>
+               <h3>Chop</h3>
+               <h3>Cervejas</h3>
+               <h3>Sem Álcool</h3>
+               <h3>Doses</h3>
+               <h3>Red Bull</h3>
+               <h3>Combos</h3>
+               <h3>Vinhos
+               </h3>
+               <h3>Espumantes</h3>
+           </div>
+        </section>
+    </main>
+     
+    <footer>
+<nav>
+    <a href="https://www.instagram.com/beachloungerestaurante/?hl=pt-br">instagram</a>
+    <p>
+        Creat by <a href="https://www.instagram.com/heitor_delfino/?hl=pt-br">@heitor_delfino</a>
+    </p>
+    <a href="">whatsapp</a>
+</nav>
+    </footer>
+     
+     
+
+</body>
+</html>
