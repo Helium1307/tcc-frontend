@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+header:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 1s;
+}
+
+header a {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    user-select: none;
+    transition: all 1s;
+}
+
+.links ul {
+    display: flex;
+    position: absolute;
+    right: 70px;
+    top: 35px;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.links a {
+    position: relative;
+    top: 5px;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    user-select: none;
+    transition: all 1s;
+    margin: 7px;
+}
+
+.links a:hover,
+header a:hover {
+    text-decoration: underline;
+}
+
+.links ul .headerButton {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 1px;
+    margin-top: -11px;
+}
+
+.links ul .headerButton:hover {
+    background-color: darkblue;
+    text-decoration: none;
+}
