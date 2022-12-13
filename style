@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body{
+   margin: 0px;
+    border-radius: 25px;
+    border: 8px solid yellow;
+}
+
+
+header{
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    text-shadow: 2px 2px 0px  red, -2px 2px 0px red, 2px -2px 0px red, -2px -2px 0px red;
+    background-color: rgb(8, 40, 219);
+    height: 80px;
+    text-align: center; 
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid rgb(14, 14, 10);
+}
+
+#secao1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main{
+
+    background-color: whitesmoke;
+}
+
+main h1{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+main h2{
+    text-align: center;
+}
+
+#secao2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fotocozinha {
+height: 150px;
+width: 150px;
+border: 2px solid black;
+border-radius: 100%;
+}
+#fotobar {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 100%;
+    }
+
+#secao3 div{
+ padding: 20px;
+}
+
+footer{
+    
+    background-color: rgb(8, 40, 219);
+    border-radius: 0px 0px 20px 20px;
+    border: 5px solid rgb(14, 14, 10);
+}
+footer nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
