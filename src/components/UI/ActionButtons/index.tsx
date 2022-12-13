@@ -8,10 +8,10 @@ type ActionButtonsProps = {
 const ActionButtons: React.FC<ActionButtonsProps> = ({ text, onCancel }) => {
   return (
     <ButtonGroup spacing={6}>
-      <Button variant={"outline"} onClick={onCancel}>
+      <Button size="lg" variant={"outline"} onClick={onCancel}>
         Cancelar
       </Button>
-      <Button colorScheme={"blue"} type={"submit"}>
+      <Button size="lg" colorScheme={"blue"} type={"submit"}>
         {text}
       </Button>
     </ButtonGroup>

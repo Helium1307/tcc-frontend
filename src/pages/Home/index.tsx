@@ -1,15 +1,13 @@
-import React, { PropsWithChildren } from "react";
-import OrderForm from "../../components/OrderForm";
+import React from "react";
+import { Outlet } from "react-router-dom";
 import PageWithSidebar from "../../components/PageWithSidebar";
 
-type HomeProps = PropsWithChildren<any>;
-
-const Home: HomeProps = () => {
+const DashboardLayout = () => {
   return (
     <PageWithSidebar>
-      <OrderForm />
+      <Outlet />
     </PageWithSidebar>
   );
 };
 
-export default Home;
+export default DashboardLayout;

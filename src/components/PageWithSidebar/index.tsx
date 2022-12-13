@@ -1,6 +1,6 @@
-import { Flex, HStack } from "@chakra-ui/react";
+import { Stack, VStack } from "@chakra-ui/react";
 import React, { FC, PropsWithChildren, ReactNode } from "react";
-import Sidebar from "../Sidebar/Sidebar";
+import NavBar from "../NavBar/NavBar";
 
 type PageWithSidebarProps = PropsWithChildren & {
   children: ReactNode;
@@ -8,10 +8,12 @@ type PageWithSidebarProps = PropsWithChildren & {
 
 const PageWithSidebar: FC<PageWithSidebarProps> = ({ children }) => {
   return (
-    <HStack>
-      <Sidebar />
-      <Flex>{children}</Flex>
-    </HStack>
+    <VStack>
+      <NavBar />
+      <Stack w="100%" h="90vh" paddingX={3}>
+        {children}
+      </Stack>
+    </VStack>
   );
 };
 
